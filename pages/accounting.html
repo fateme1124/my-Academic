@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود و ثبت نام</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login-register.css">
+</head>
+
+<body>
+    <div class="main-box">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="account-btn"></div>
+                <button type="button" class="toggle-btn" onclick="Register()">ثبت نام</button>
+                <button type="button" class="toggle-btn" onclick="Login()">ورود</button>
+            </div>
+            <div class="social-icons">
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <form action="" id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="نام کاربری">
+                <input type="text" class="input-field" placeholder="رمز عبور">
+                <input type="checkbox" class="check-box">
+                <span>
+                    مرا به خاطر بسپار
+                </span>
+                <button type="submit" class="submit-btn">ورود</button>
+            </form>
+
+            <form action="" id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="نام کاربری">
+                <input type="email" class="input-field" placeholder="ایمیل">
+                <input type="text" class="input-field" placeholder="رمز عبور">
+                <input type="checkbox" class="check-box">
+                <span>
+                    قوانین و مقررات سایت را می پذیرم
+                </span>
+                <button type="submit" class="submit-btn">ثبت نام</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="../js/login-register.js"></script>
+</body>
+
+</html>

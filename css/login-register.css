@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'koodak';
+    src: url('../fonts/KoodakBold.eot?#')format('eot'), url('../fonts/KoodakBold.ttf')format('truetype'), url('../fonts/KoodakBold.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nazanin';
+    src: url('../fonts/Nazanin.eot?#')format('eot'), url('../fonts/Nazanin.ttf')format('truetype'), url('../fonts/Nazanin.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot?#')format('eot'), url('../fonts/Yekan.ttf')format('truetype'), url('../fonts/Yekan.woff')format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'yekan';
+}
+
+.main-box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/root/back3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background: #fff;
+    margin: 7% auto;
+    padding: 0.3rem;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 220px;
+    margin: 2.2rem auto;
+    position: relative;
+    border-radius: 1.8rem;
+    font-size: 1rem;
+    box-shadow: 0 0 1.25rem 0.5rem #ff61251f;
+}
+
+.toggle-btn {
+    position: relative;
+    padding: 0.6rem 1.8rem;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+#account-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    border-radius: 1.8rem;
+    background-image: linear-gradient(to right, #25aae4, #1ebba3);
+    transition: 0.6s;
+}
+
+.social-icons {
+    margin: 1.8rem auto;
+    text-align: center;
+}
+
+.social-icons i {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.6rem;
+    background-image: linear-gradient(to right, #25aae4, #1ebba3);
+    color: #fff;
+    margin: 0 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.input-group {
+    position: absolute;
+    top: 170px;
+    width: 280px;
+    transition: 0.6s;
+}
+
+.input-field {
+    width: 100%;
+    margin: 0.3rem 0;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #999;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+.check-box {
+    margin: 1.8rem 0.5rem;
+}
+
+.submit-btn {
+    width: 85%;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 0.6rem 1.8rem;
+    display: block;
+    background-image: linear-gradient(to right, #25aae4, #1ebba3);
+    border-radius: 1.8rem;
+    border: 0;
+    outline: none;
+}
+
+.input-group span {
+    color: #999;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 67px;
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
